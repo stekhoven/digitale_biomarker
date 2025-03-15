@@ -1,0 +1,138 @@
+---
+title: "FAIR, agil und reproduzierbar – moderner Umgang mit Daten und Analysen im Gesundheitswesen"
+author: "Daniel Stekhoven"
+date: "Frühlingssemester 2025"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    incremental: true
+---
+
+## Begrüssung und Einführung
+
+-   **Titel:** FAIR, agil und reproduzierbar – moderner Umgang mit Daten und Analysen im Gesundheitswesen
+-   **Dozent:** Daniel Stekhoven
+-   **Datum:** FS2025
+
+------------------------------------------------------------------------
+
+## Spannende Eröffnungsstory
+
+> Kurzes Beispiel einer Datenmanagement-Panne im Gesundheitswesen (z.B. falsche Medikamentengabe).
+
+*Warum ist Datenmanagement wichtig?*
+
+------------------------------------------------------------------------
+
+## Herausforderungen im Gesundheitsdaten-Management
+
+-   Datenvolumen (Big Data)
+-   Datenschutz und Privatsphäre
+-   Interoperabilität zwischen Systemen
+-   Qualitätssicherung
+
+------------------------------------------------------------------------
+
+## Mentimeter-Umfrage
+
+### Welche Herausforderung erscheint euch am kritischsten?
+
+(Wortwolke generieren)
+
+------------------------------------------------------------------------
+
+## Einführung FAIR-Prinzipien
+
+-   **F**indable (auffindbar)
+-   **A**ccessible (zugänglich)
+-   **I**nteroperable (kompatibel)
+-   **R**eusable (wiederverwendbar)
+
+------------------------------------------------------------------------
+
+## FAIR in der Praxis (Fallbeispiel)
+
+-   Erfolgreiche Anwendung in Forschungsdatenbanken
+-   Praxisbeispiele aus der Forschung
+
+------------------------------------------------------------------------
+
+## Agile Softwareentwicklung - Grundlagen
+
+-   Planung → Entwicklung → Testen → Feedback → Anpassung
+-   Flexibilität und schnelle Reaktion auf Änderungen
+
+------------------------------------------------------------------------
+
+## Mentimeter-Umfrage
+
+### Habt ihr bereits Erfahrung mit agiler Softwareentwicklung?
+
+(Ja/Nein)
+
+------------------------------------------------------------------------
+
+## Besonderheiten der Softwareentwicklung im Gesundheitswesen
+
+-   Regulatorische Anforderungen
+-   Datenschutzbestimmungen
+-   Datensicherheit
+-   Validierung von Softwarelösungen
+
+------------------------------------------------------------------------
+
+## Fallstudie: Agile Entwicklung einer Gesundheits-App
+
+-   Praxisbeispiel: Patientenüberwachungs-App
+-   Agile Iterationen
+-   Nutzerfeedback und regulatorische Anpassungen
+
+------------------------------------------------------------------------
+
+## Reproduzierbarkeit in Analysen
+
+-   Was bedeutet Reproduzierbarkeit?
+-   Konsequenzen fehlender Reproduzierbarkeit
+
+------------------------------------------------------------------------
+
+## Vorteile der Reproduzierbarkeit
+
+-   Vertrauen in Forschungsergebnisse
+-   Qualitätssicherung
+-   Effizienzsteigerung
+-   Beschleunigung des wissenschaftlichen Fortschritts
+
+------------------------------------------------------------------------
+
+## Mentimeter-Umfrage
+
+### Was könnte helfen, Analysen reproduzierbarer zu gestalten?
+
+(offene Antworten)
+
+------------------------------------------------------------------------
+
+## Zusammenfassung und Key Messages
+
+-   Herausforderungen im Datenmanagement
+-   FAIR-Prinzipien
+-   Agile Softwareentwicklung
+-   Bedeutung der Reproduzierbarkeit
+
+------------------------------------------------------------------------
+
+## Q&A und Diskussion
+
+-   Offene Fragen?
+-   Diskussion und Reflexion
+
+------------------------------------------------------------------------
+
+## Abschluss
+
+-   Weiterführende Ressourcen
+-   Kontaktinformationen
+
+Vielen Dank für eure Aufmerksamkeit!
