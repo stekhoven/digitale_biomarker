@@ -1,0 +1,55 @@
+---
+title: "FAIR, agil und reproduzierbar – moderner Umgang mit Daten und Analysen im Gesundheitswesen"
+author: "Daniel Stekhoven"
+format: html
+editor: visual
+bibliography: references.bib
+---
+
+## FAIR, agil und reproduzierbar – moderner Umgang mit Daten und Analysen im Gesundheitswesen
+
+HIER WAS ZUR VORLESUNG UN DER REIHE SCHREIBEN
+
+### 1. Einführung
+
+Dieser Kursabschnitt befasst sich mit modernen Konzepten des Datenmanagements und der Analyse im Gesundheitswesen. Der Fokus liegt auf der Bedeutung der FAIR-Prinzipien[@wilkinson2016], agiler Softwareentwicklung und der Reproduzierbarkeit wissenschaftlicher Analysen.
+
+### 2. Herausforderungen im Gesundheitsdaten-Management
+
+Gesundheitsdaten sind komplex, sensibel und oft schwierig zu verwalten[@kruse2016]. Zentrale Herausforderungen umfassen Datenschutz, Interoperabilität zwischen Systemen, Qualitätssicherung und die ständig wachsende Menge an Daten (Big Data).
+
+*Empfohlene Grafik: Übersichtsgrafik zu Herausforderungen in der Datenverwaltung.*
+
+### 3. FAIR-Prinzipien
+
+FAIR steht für Findable (auffindbar), Accessible (zugänglich), Interoperable (kompatibel) und Reusable (wiederverwendbar)[@wilkinson2016]. Diese Prinzipien unterstützen ein effizientes Datenmanagement und fördern den Austausch zwischen Forschenden, insbesondere unabhängig von den verwendeten Infrastrukturen[@mons2017].
+
+### 4. FAIR in der Praxis
+
+Die FAIR-Prinzipien ermöglichen, dass Daten einfacher von verschiedenen Akteuren genutzt werden können[@wilkinson2016]. Erfolgreiche Implementierungen der FAIR-Prinzipien führen nachweislich zu erhöhter Forschungsqualität und beschleunigten Entdeckungen[@fairshar2019;@boeckhout2018].
+
+*Empfohlene Grafik: Fallbeispiel-Diagramm zu erfolgreichen FAIR-Implementierungen.*
+
+### 5. Agile Softwareentwicklung
+
+Agile Softwareentwicklung beschreibt iterative und flexible Entwicklungsmethoden, welche schnelle Anpassungen und kontinuierliches Feedback ermöglichen. Die Entwicklung erfolgt in kurzen Zyklen (Sprints) und integriert Nutzerfeedback frühzeitig[@beck2001agile;@abrahamsson2002].
+
+### 6. Besonderheiten der Softwareentwicklung im Gesundheitswesen
+
+Im Gesundheitswesen stellen regulatorische Vorgaben, Datenschutzbestimmungen und hohe Anforderungen an Datensicherheit besondere Herausforderungen für die Softwareentwicklung dar[@mcgraw2021]. Diese müssen bereits in frühen Entwicklungsphasen berücksichtigt werden und auf pragmatische, auf die Endnutzer ausgerichtete Produkte hervorbringen[@mathews2019].
+
+### 7. Fallstudie: Agile Entwicklung einer Gesundheits-App
+
+Anhand eines Beispiels zur Patientenüberwachung durch eine Gesundheits-App wird verdeutlicht, wie agile Methoden praktisch eingesetzt werden können. Durch frühe Einbindung von Endnutzern und regulatorischer Anpassungen wurde eine schnelle Markteinführung ermöglicht.
+
+*Empfohlene Grafik: Prozessdiagramm der agilen Entwicklung einer Gesundheits-App.*
+
+### 8. Reproduzierbarkeit in Analysen
+
+Reproduzierbarkeit bedeutet, dass wissenschaftliche Ergebnisse und Analysen durch unabhängige Forschende nachvollzogen und verifiziert werden können. Fehlende Reproduzierbarkeit führt oft zu Unsicherheiten, Verzögerungen und Verschwendung von Ressourcen[@ioannidis2005]. Seit vielen Jahren befindet sich die Forschung in eine regelrechten Reproduzierbarkeitskrise[@baker2016;@nosek2022]. Die Gemeinschaft hat jedoch darauf reagiert und viele Initiativen zur Förderung von rigoroser, transparenter und reproduzierbarer Forschung sind entstanden[for instance @fromgra2021].
+
+### 9. Vorteile der Reproduzierbarkeit
+
+Reproduzierbare Forschung erhöht die Vertrauenswürdigkeit, Qualität und Effizienz wissenschaftlicher Arbeit. Sie fördert auch Transparenz und beschleunigt den Fortschritt in der Gesundheitsforschung[@munafò2017;@peng2011].
+
+*Empfohlene Grafik: Nutzen von reproduzierbaren Analysen.*
