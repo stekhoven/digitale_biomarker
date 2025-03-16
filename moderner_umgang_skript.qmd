@@ -9,6 +9,10 @@ format:
     number-sections: true
     number-depth: 2
     embed-resources: true
+    code-links:
+      - text: "Quellcode auf GitHub"
+        icon: github
+        href: https://github.com/stekhoven/digitale_biomarker
 editor: visual
 bibliography: references.bib
 ---
@@ -39,7 +43,7 @@ FAIR steht für Findable (auffindbar), Accessible (zugänglich), Interoperable (
 
 ## FAIR in der Praxis
 
-Die FAIR-Prinzipien ermöglichen, dass Daten einfacher von verschiedenen Akteuren genutzt werden können [@wilkinson2016]. Erfolgreiche Implementierungen der FAIR-Prinzipien führen nachweislich zu erhöhter Forschungsqualität und beschleunigten Entdeckungen [@fairshar2019;@boeckhout2018]. Manchmal sind Daten aber nicht einfach teilbar, dann ist es hilfreich, wenn man die Metadaten teilen kann [@dasilvasantos2023].
+Die FAIR-Prinzipien ermöglichen, dass Daten einfacher von verschiedenen Akteuren genutzt werden können [@wilkinson2016]. Erfolgreiche Implementierungen der FAIR-Prinzipien führen nachweislich zu erhöhter Forschungsqualität und beschleunigten Entdeckungen [@fairshar2019; @boeckhout2018]. Manchmal sind Daten aber nicht einfach teilbar, dann ist es hilfreich, wenn man die Metadaten teilen kann [@dasilvasantos2023].
 
 #### *Praxisbeispiel: LUMC und SURF in Holland*
 
@@ -47,7 +51,7 @@ Im Medizinischen Zentrum der Universität Leiden (LUMC) wird der FAIR Data Point
 
 ## Agile Softwareentwicklung
 
-Agile Softwareentwicklung beschreibt iterative und flexible Entwicklungsmethoden, welche schnelle Anpassungen und kontinuierliches Feedback ermöglichen. Die Entwicklung erfolgt in kurzen Zyklen (Sprints) und integriert Nutzerfeedback frühzeitig [@beck2001agile;@abrahamsson2002].
+Agile Softwareentwicklung beschreibt iterative und flexible Entwicklungsmethoden, welche schnelle Anpassungen und kontinuierliches Feedback ermöglichen. Die Entwicklung erfolgt in kurzen Zyklen (Sprints) und integriert Nutzerfeedback frühzeitig [@beck2001agile; @abrahamsson2002].
 
 ![Agile Softwareentwicklung zeichnet sich durch das schrittweise Erarbeiten einer Lösung in mehreren Sprints aus. Abbildung: SolDevolo[^5]](img/Agile-software-dev-1.jpeg.webp){#agile}
 
@@ -73,10 +77,10 @@ Diese Punkte werden als einige der grössten Herausforderungen bei der digitalen
 
 ## Reproduzierbarkeit in Analysen
 
-Reproduzierbarkeit bedeutet, dass wissenschaftliche Ergebnisse und Analysen durch unabhängige Forschende nachvollzogen und verifiziert werden können. Fehlende Reproduzierbarkeit führt oft zu Unsicherheiten, Verzögerungen und Verschwendung von Ressourcen [@ioannidis2005]. Seit vielen Jahren befindet sich die Forschung in eine regelrechten Reproduzierbarkeitskrise [@baker2016;@nosek2022;@errington2021]. Die Gemeinschaft reagiert zaghaft darauf und Initiativen zur Förderung von rigoroser, transparenter und reproduzierbarer Forschung sind entstanden [for instance @fromgra2021].
+Reproduzierbarkeit bedeutet, dass wissenschaftliche Ergebnisse und Analysen durch unabhängige Forschende nachvollzogen und verifiziert werden können. Fehlende Reproduzierbarkeit führt oft zu Unsicherheiten, Verzögerungen und Verschwendung von Ressourcen [@ioannidis2005]. Seit vielen Jahren befindet sich die Forschung in eine regelrechten Reproduzierbarkeitskrise [@baker2016; @nosek2022; @errington2021]. Die Gemeinschaft reagiert zaghaft darauf und Initiativen zur Förderung von rigoroser, transparenter und reproduzierbarer Forschung sind entstanden [for instance @fromgra2021].
 
 ![(A) Diagramm, in dem jeder Kreis einen Effekt darstellt, für den eine SMD-Effektgrösse sowohl für den ursprünglichen Effekt als auch für die Replikation berechnet werden konnte (n=110). Blaue Kreise zeigen Effekte an, für die p\<0.05 in der Replikation war, und rote Kreise zeigen p\>0.05 an. Zwei Effekte, für die die ursprüngliche Effektgröße \>80 war, sind nicht dargestellt. Der Median der Effektgrösse in den Replikationen war 85% kleiner als der Median der Effektgrösse in den ursprünglichen Experimenten, und 97% der Effektgrössen in den Replikationen waren kleiner als die ursprünglichen Effektgrössen (unterhalb der grauen diagonalen Linie). (B) Eine erweiterte Ansicht von Feld A für Effektgrössen \< 5 (grauer Umriss in Feld A). SMD: Standard Mean Differenz. [Abbildung: @errington2021]](img/lax_71601_elife-71601-fig2-v3.tif.jpg){#reproducibility}
 
 ## Vorteile der Reproduzierbarkeit
 
-Reproduzierbare Forschung erhöht die Vertrauenswürdigkeit, Qualität und Effizienz wissenschaftlicher Arbeit, da Ergebnisse und Analysen unabhängig überprüft werden können [@munafò2017;@peng2011;@cobey2024]. Im Gesundheitswesen verbessert Reproduzierbarkeit die klinische Entscheidungsfindung und stärkt die Grundlage für evidenzbasierte Medizin [@niven2018]. Interoperabilität, als wesentliche Komponente der Reproduzierbarkeit, ermöglicht zudem den Austausch und die Nutzung von Daten und Ergebnissen über verschiedene Systeme und Organisationen hinweg, was die Zusammenarbeit zwischen Forschungseinrichtungen, Kliniken und Industriepartnern vereinfacht und dadurch Innovation und medizinische Fortschritte beschleunigt [@gaudet-blavignac2021]. Insgesamt fördert reproduzierbare Forschung Transparenz, minimiert Fehlerpotenziale und reduziert unnötige Kosten und Ressourcenverschwendung [@freedman2015].
+Reproduzierbare Forschung erhöht die Vertrauenswürdigkeit, Qualität und Effizienz wissenschaftlicher Arbeit, da Ergebnisse und Analysen unabhängig überprüft werden können [@munafò2017; @peng2011; @cobey2024]. Im Gesundheitswesen verbessert Reproduzierbarkeit die klinische Entscheidungsfindung und stärkt die Grundlage für evidenzbasierte Medizin [@niven2018]. Interoperabilität, als wesentliche Komponente der Reproduzierbarkeit, ermöglicht zudem den Austausch und die Nutzung von Daten und Ergebnissen über verschiedene Systeme und Organisationen hinweg, was die Zusammenarbeit zwischen Forschungseinrichtungen, Kliniken und Industriepartnern vereinfacht und dadurch Innovation und medizinische Fortschritte beschleunigt [@gaudet-blavignac2021]. Insgesamt fördert reproduzierbare Forschung Transparenz, minimiert Fehlerpotenziale und reduziert unnötige Kosten und Ressourcenverschwendung [@freedman2015].
