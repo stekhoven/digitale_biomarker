@@ -1,48 +1,56 @@
 ---
 title: "FAIR, agil und reproduzierbar – moderner Umgang mit Daten und Analysen im Gesundheitswesen"
 author: "Daniel Stekhoven"
-date: "Frühlingssemester 2025"
+date: "2025-03-17"
 format:
   revealjs:
     theme: simple
     slide-number: true
     incremental: true
+bibliography: references.bib
 ---
 
-## Begrüssung und Einführung
+## Einführung
 
--   **Titel:** FAIR, agil und reproduzierbar – moderner Umgang mit Daten und Analysen im Gesundheitswesen
--   **Dozent:** Daniel Stekhoven
--   **Datum:** FS2025
+Drei Säulen für das moderne Datenmanagement und Analyse
+
+-   FAIR-Prinzipien,
+-   agile Entwicklung,
+-   Reproduzierbarkeit
 
 ------------------------------------------------------------------------
 
-## Spannende Eröffnungsstory
+## Interaktiver Inhalt im Anmarsch
 
-> Kurzes Beispiel einer Datenmanagement-Panne im Gesundheitswesen (z.B. falsche Medikamentengabe).
-
-*Warum ist Datenmanagement wichtig?*
+![Oder gehen Sie auf menti.com und geben Sie den Code **5534 0896** ein.](img/mentimeter_qr_code.png)
 
 ------------------------------------------------------------------------
 
 ## Herausforderungen im Gesundheitsdaten-Management
 
--   Datenvolumen (Big Data)
+-   Sensibilität und Komplexität der Daten
 -   Datenschutz und Privatsphäre
 -   Interoperabilität zwischen Systemen
--   Qualitätssicherung
+-   Qualitätssicherung und Validierung
+-   Datenvolumen und -typen
 
 ------------------------------------------------------------------------
 
-## Mentimeter-Umfrage
-
-### Welche Herausforderung erscheint euch am kritischsten?
-
-(Wortwolke generieren)
+![Abbildung: Helbling](img/Helbling_Abbildung_1-2144x1528.png){#perspektiven}
 
 ------------------------------------------------------------------------
 
-## Einführung FAIR-Prinzipien
+## Jetzt sind Sie dran!
+
+::: {style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;"}
+<iframe sandbox="allow-scripts allow-same-origin allow-presentation" allowfullscreen="true" allowtransparency="true" frameborder="0" height="315" src="https://www.mentimeter.com/app/presentation/al5mqo158pba488xjvptysgoy3ibizsn/embed" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="420">
+
+</iframe>
+:::
+
+------------------------------------------------------------------------
+
+## FAIR-Prinzipien
 
 -   **F**indable (auffindbar)
 -   **A**ccessible (zugänglich)
@@ -51,88 +59,159 @@ format:
 
 ------------------------------------------------------------------------
 
-## FAIR in der Praxis (Fallbeispiel)
-
--   Erfolgreiche Anwendung in Forschungsdatenbanken
--   Praxisbeispiele aus der Forschung
+![Abbildung: Cambridge Cristallographic Data Centre (CCDC)](img/FAIR-Image.png){#FAIR}
 
 ------------------------------------------------------------------------
 
-## Agile Softwareentwicklung - Grundlagen
+## FAIR in der Praxis
 
--   Planung → Entwicklung → Testen → Feedback → Anpassung
--   Flexibilität und schnelle Reaktion auf Änderungen
+-   Anwendungsbeispiele und Vorteile
+-   Erhöhte Forschungsqualität
+-   Beschleunigung wissenschaftlicher Entdeckungen
 
 ------------------------------------------------------------------------
 
-## Mentimeter-Umfrage
+## Agile Softwareentwicklung
 
-### Habt ihr bereits Erfahrung mit agiler Softwareentwicklung?
+-   Iterative und flexible Prozesse (nicht alles auf einmal!)
+-   Zyklen: Planung & Design → Entwicklung → Testen & Ausrollen → Feedback → "Anpassen"
+-   Wichtig: Frühzeitiges Nutzerfeedback (Arbeit mit *User Stories*)
 
-(Ja/Nein)
+![Abbildung: SolDevolo](img/Agile-software-dev-1.jpeg.webp){#agile}
+
+------------------------------------------------------------------------
+
+## Schrittweise 🤔 - und bei Ihnen?
+
+::: {style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;"}
+<iframe sandbox="allow-scripts allow-same-origin allow-presentation" allowfullscreen="true" allowtransparency="true" frameborder="0" height="315" src="https://www.mentimeter.com/app/presentation/al5mqo158pba488xjvptysgoy3ibizsn/embed" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="420">
+
+</iframe>
+:::
 
 ------------------------------------------------------------------------
 
 ## Besonderheiten der Softwareentwicklung im Gesundheitswesen
 
 -   Regulatorische Anforderungen
--   Datenschutzbestimmungen
--   Datensicherheit
--   Validierung von Softwarelösungen
+-   Datenschutz und Datensicherheit
+-   Validierung & Zertifizierung von Softwarelösungen
 
 ------------------------------------------------------------------------
 
-## Fallstudie: Agile Entwicklung einer Gesundheits-App
+## ...und diese?
 
--   Praxisbeispiel: Patientenüberwachungs-App
--   Agile Iterationen
--   Nutzerfeedback und regulatorische Anpassungen
+::: nonincremental
+1.  Unzureichende Strategie und Ausführungsplan 
+2.  Fehlende Akzeptanz bei den Beteiligten 
+3.  Die Last veralteter Prozesse 
+4.  Veraltete Systeme und Schwierigkeiten bei der Integration mit neuen Technologien 
+5.  Fehlende Priorisierung von Schulung und Einführung
+:::
 
 ------------------------------------------------------------------------
 
-## Reproduzierbarkeit in Analysen
+## Reproduzierbarkeit
 
--   Was bedeutet Reproduzierbarkeit?
--   Konsequenzen fehlender Reproduzierbarkeit
+... bedeutet, dass jemand anderes (oder das zukünftige Du) mit den [gleichen]{.underline} Daten und den [gleichen]{.underline} Methoden das [gleiche]{.underline} Resultat erhält.
+
+-   Geht das immer?
+
+------------------------------------------------------------------------
+
+## Reproduzierbarkeit
+
+Idee: Definiere den Spielraum[^1]:
+
+[^1]: Goodman S.N. et al. Sci. Transl. Med. 8, 341ps 12-341ps 12 (2016). [10.1126/scitranslmed.aaf5027](https://doi.org/10.1126/scitranslmed.aaf5027)
+
+-   **Methods reproducibility** - exakt das Gleiche!
+
+-   **Results reproducibility** - die Resultate sind konsistent (gleich gross, gleiche Richtung...)
+
+-   **Inferential reproducibility** - aus den Resultaten werden die gleichen Schlussfolgerungen gezogen
+
+------------------------------------------------------------------------
+
+## Andere R-Worte (...und G...)
+
+Erhält man die konsistente Resultate, dann gibt es folgende Ausprägungen[^2]:
+
+[^2]: The Turing Way Community, & Scriberia. (2024). <https://doi.org/10.5281/ZENODO.3332807>
+
+|                     |                    |                     |
+|--------------------:|:------------------:|:-------------------:|
+|                     |    Daten gleich    |  Daten verschieden  |
+|      Methode gleich | **reproduzierbar** |  **replizierbar**   |
+| Methode verschieden |     **robust**     | **generalisierbar** |
+
+------------------------------------------------------------------------
+
+## Reproduzierbarkeitskrise[^3]
+
+[^3]: Errington, Tim et al. 2021. “Investigating the Replicability of Preclinical Cancer Biology.” eLife 10 (December). <https://doi.org/10.7554/elife.71601.>
+
+![](img/lax_71601_elife-71601-fig2-v3.tif.jpg){#reproducibility alt="(A) Diagramm, in dem jeder Kreis einen Effekt darstellt, für den eine SMD-Effektgrösse sowohl für den ursprünglichen Effekt als auch für die Replikation berechnet werden konnte (n"}
+
+------------------------------------------------------------------------
+
+## Reproduzierbarkeitskrise[^4]
+
+[^4]: Baker, M. 1,500 scientists lift the lid on reproducibility. Nature 533, 452–454 (2016). <https://doi.org/10.1038/533452a>
+
+![](img/baker2016nature.png){width="40%"}
 
 ------------------------------------------------------------------------
 
 ## Vorteile der Reproduzierbarkeit
 
--   Vertrauen in Forschungsergebnisse
--   Qualitätssicherung
--   Effizienzsteigerung
--   Beschleunigung des wissenschaftlichen Fortschritts
+-   Vertrauenswürdigkeit und Transparenz
+-   Qualitätssteigerung wissenschaftlicher Ergebnisse
+-   Effizienzsteigerung und Kostenreduktion
+-   Unterstützung evidenzbasierter Medizin
 
 ------------------------------------------------------------------------
 
-## Mentimeter-Umfrage
+![](img/0foxgolf.png)
 
-### Was könnte helfen, Analysen reproduzierbarer zu gestalten?
+------------------------------------------------------------------------
 
-(offene Antworten)
+## Egoistisch sein⁉️
+
+Reproduzierbarkeit[^5]...
+
+[^5]: *Markowetz, F. Five selfish reasons to work reproducibly. Genome Biol 16, 274 (2015). <https://doi.org/10.1186/s13059-015-0850-7>*
+
+-   ...hilft, **Katastrophen** zu vermeiden
+
+-   ...erleichtert das Verfassen von **Publikationen**
+
+-   ...hilft **Reviewern**, die Arbeit so zu sehen, wie Sie sie sehen
+
+-   ...ermöglicht die **Kontinuität** Ihrer Arbeit
+
+-   ...hilft, Ihren **Ruf** aufzubauen
+
+------------------------------------------------------------------------
+
+## Wo ansetzen? Und wie?
+
+::: {style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;"}
+<iframe sandbox="allow-scripts allow-same-origin allow-presentation" allowfullscreen="true" allowtransparency="true" frameborder="0" height="315" src="https://www.mentimeter.com/app/presentation/al5mqo158pba488xjvptysgoy3ibizsn/embed" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="420">
+
+</iframe>
+:::
 
 ------------------------------------------------------------------------
 
 ## Zusammenfassung und Key Messages
 
--   Herausforderungen im Datenmanagement
--   FAIR-Prinzipien
--   Agile Softwareentwicklung
--   Bedeutung der Reproduzierbarkeit
+-   Seien Sie FAIR! Fair?
+-   Seien Sie agil (nicht nur in der Softwareentwicklung)
+-   Seien Sie egoistisch... eh, reproduzierbar!
 
 ------------------------------------------------------------------------
 
-## Q&A und Diskussion
+## Fragen? Fragen!
 
--   Offene Fragen?
--   Diskussion und Reflexion
-
-------------------------------------------------------------------------
-
-## Abschluss
-
--   Weiterführende Ressourcen
--   Kontaktinformationen
-
-Vielen Dank für eure Aufmerksamkeit!
+![Adobe Stock - Bildungseinrichtungslizenz - ETH Zürich](img/AdobeStock_1102307284.jpeg)
